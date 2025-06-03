@@ -1,9 +1,19 @@
-const App = () => {
-  return (
-    <div>
-      <h1>Temporus</h1>
-    </div>
-  );
-};
+// Todas as funções e comentários deste arquivo devem estar em português do Brasil.
+import { Container } from "./components/Container";
+import { Logo } from "./components/Logo";
+import { Menu } from "./components/Menu";
 
-export { App };
+import "./styles/global.css";
+import "./styles/theme.css";
+export function App() {
+  return (
+    <>
+      <Container>
+        <Logo />
+      </Container>
+      <Container>
+        <Menu />
+      </Container>
+    </>
+  );
+}
