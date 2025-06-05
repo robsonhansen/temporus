@@ -5,7 +5,7 @@ export function Forms() {
   return (
     <form className={style.forms} action="#">
       <div className={style.formsRow}>
-        <DefaultInput type="text" />
+        <DefaultInput id="task" type="text" labelText="Tarefa" placeholder="Adicione uma task" disabled />
       </div>
       <div className={style.formsRow}>
         <p>Lorem ipsum dolor sit amet.</p>
