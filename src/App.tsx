@@ -5,9 +5,11 @@ import { Forms } from "./components/Forms";
 import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
 import { Cycles } from "./components/Cycles";
+import { DefaultButton } from "./components/DefaultButton";
 
 import "./styles/global.css";
 import "./styles/theme.css";
+import { PlayCircleIcon } from "lucide-react";
 export function App() {
   return (
     <>
@@ -27,7 +29,7 @@ export function App() {
         <Cycles />
       </Container>
       <Container>
-        <button disabled>Finalizar Ciclo</button>
+        <DefaultButton icon={<PlayCircleIcon />} />
       </Container>
     </>
   );
