@@ -4,6 +4,7 @@ import { CountDown } from "./components/CountDown";
 import { Forms } from "./components/Forms";
 import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
+import { Cycles } from "./components/Cycles";
 
 import "./styles/global.css";
 import "./styles/theme.css";
@@ -21,6 +22,12 @@ export function App() {
       </Container>
       <Container>
         <Forms />
+      </Container>
+      <Container>
+        <Cycles />
+      </Container>
+      <Container>
+        <button disabled>Finalizar Ciclo</button>
       </Container>
     </>
   );
