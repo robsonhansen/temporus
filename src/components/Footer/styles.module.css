@@ -1,0 +1,16 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  filter: brightness(0.7);
+}
