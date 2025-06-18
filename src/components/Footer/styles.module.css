@@ -1,5 +1,5 @@
 .footer {
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
   font-size: 1.6rem;
 }
@@ -13,4 +13,11 @@
 .footer a:hover {
   text-decoration: underline;
   filter: brightness(0.7);
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem;
+    font-size: 1rem;
+  }
 }

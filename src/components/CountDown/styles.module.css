@@ -1,5 +1,5 @@
 .countDown {
-  font-size: clamp(6.5rem, 18vw, 48rem);
+  font-size: clamp(6.5rem, 18vw, 16rem);
   font-weight: bold;
   color: var(--primary-color);
   text-align: center;
