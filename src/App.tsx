@@ -11,6 +11,7 @@ import { Footer } from "./components/Footer";
 import "./styles/global.css";
 import "./styles/theme.css";
 import { PlayCircleIcon } from "lucide-react";
+
 export function App() {
   return (
     <>
