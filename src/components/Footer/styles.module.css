@@ -8,11 +8,12 @@
   color: var(--primary-color);
   text-decoration: none;
   transition: all 0.2s ease;
+  filter: brightness(0.7);
 }
 
 .footer a:hover {
   text-decoration: underline;
-  filter: brightness(0.7);
+  filter: brightness(0.4);
 }
 
 @media (max-width: 480px) {
