@@ -1,5 +1,7 @@
 import style from "./styles.module.css";
+import { useTaskContext } from "../../contexts/TaskContext";
 
 export function CountDown() {
-  return <div className={style.countDown}>00:00:00</div>;
+  const { state } = useTaskContext();
+  return <div className={style.countDown}>{state.formattedSecondsRemainning}</div>;
 }
